@@ -1,3 +1,13 @@
+###Stack deploy
+~~~
+sls deploy
+~~~
+###Stack removal
+~~~
+sls remove
+~~~
+
+#
 Don't be confused with serverless templates/examples.
 This is not just an example, it's created with a special typescript template by serverless official docs
 `https://www.serverless.com/framework/docs/providers/aws/cli-reference/create/`
@@ -28,4 +38,4 @@ sls offline --disableCookieValidation
 In case you need to run without this option is the case for further investigation
 
 #
-LAST NOTE: Don't be afraid of serverless.ts file format (ts lang code as infrastructure), you get the same aws infra variable injection and code (file) splitting as with yml file format 
+LAST NOTE: Don't be afraid of serverless.ts file format (ts lang code as infrastructure), you get the same aws infra variable injection and code (file) splitting as with yml file format. On `resources:` section goes your vanilla AWS CloudFormation code.
