@@ -22,6 +22,7 @@ const serverlessConfiguration: Serverless = {
     },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
+      TEST_VAR: '${self:provider.stage}',
     },
   },
   functions: {
@@ -37,7 +38,7 @@ const serverlessConfiguration: Serverless = {
       ]
     },
     second: {
-      handler: 'src/handler.second',
+      handler: 'src/secondHandler.second',
       events: [
         {
           http: {
