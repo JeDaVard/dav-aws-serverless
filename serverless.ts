@@ -11,7 +11,7 @@ const serverlessConfiguration: Serverless = {
     }
   },
   // Add the serverless-webpack plugin
-  plugins: ['serverless-webpack'],
+  plugins: ['serverless-webpack', 'serverless-offline'],
   provider: {
     name: 'aws',
     runtime: 'nodejs12.x',
@@ -26,12 +26,23 @@ const serverlessConfiguration: Serverless = {
   },
   functions: {
     hello: {
-      handler: 'handler.hello',
+      handler: 'src/handler.hello',
       events: [
         {
           http: {
             method: 'get',
             path: 'hello',
+          }
+        }
+      ]
+    },
+    second: {
+      handler: 'src/handler.second',
+      events: [
+        {
+          http: {
+            method: 'get',
+            path: 'second',
           }
         }
       ]

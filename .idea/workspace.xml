@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c256fa3e-6ca5-4efa-a829-77c1a6f304d2" name="Default Changelist" comment="" />
+    <list default="true" id="c256fa3e-6ca5-4efa-a829-77c1a6f304d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/secondHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serverless.ts" beforeDir="false" afterPath="$PROJECT_DIR$/serverless.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="docker-desktop" />
@@ -21,8 +49,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,22 +65,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604854331947</updated>
-      <workItem from="1604854333104" duration="2468000" />
+      <workItem from="1604854333104" duration="2969000" />
+      <workItem from="1604859604292" duration="707000" />
+      <workItem from="1604901047799" duration="360000" />
+      <workItem from="1604933020065" duration="20000" />
+      <workItem from="1605160308668" duration="6076000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="504" y="77" width="440" height="746" key="#JSON" timestamp="1604854987949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="504" y="77" width="440" height="746" key="#JSON/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1604854987949" />
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604855015475">
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605179134017">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1604855015475" />
+    <state x="184" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.0.1440.900/0.0.1440.900@0.0.1440.900" timestamp="1605179134017" />
     <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1604856238569">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
